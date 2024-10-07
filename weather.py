@@ -3,7 +3,7 @@ import pyttsx3
 import json
 
 city = input("Enter you city : ")
-url = f"http://api.weatherapi.com/v1/current.json?key=b31d96b248eb48e8a46125730240406&q={city}&aqi=no"
+url = f"YOUR_API"
 r = requests.get(url)
 
 wdic = json.loads(r.text)
