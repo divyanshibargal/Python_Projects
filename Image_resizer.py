@@ -1,7 +1,7 @@
 import cv2
 
 #Configurable parameters
-source = "devesh.jpg"
+source = "sample.jpg"
 destination = "new_image.jpg"
 scale_percent = 50
 
