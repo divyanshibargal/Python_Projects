@@ -7,11 +7,11 @@ from datetime import datetime
 video_capture = cv2.VideoCapture(0)
 
 #Load known faces 
-devesh_image = face_recognition.load_image_file("devesh.jpg")
-devesh_encoding = face_recognition.face_encodings(devesh_image)[0]
+divyanshi_image = face_recognition.load_image_file("divyanshi.jpg")
+divyanshi_encoding = face_recognition.face_encodings(divyanshi_image)[0]
 
-known_face_encoding = [devesh_encoding]
-known_face_names = ["Devesh"]
+known_face_encoding = [divyanshi_encoding]
+known_face_names = ["Divyanshi"]
 
 #list of expected students
 students = known_face_names.copy()
